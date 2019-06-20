@@ -1,0 +1,64 @@
+/**index.wxss**/
+.container{
+  /* background: url('./timg.jpg'); */
+  /* background-image: url('/pages/index/timg.jpg'); */
+  position: fixed; 
+  width: 100%;
+  height: 100vh;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px;
+}
+.carousel,.content{
+  height : 100vh;
+  position: absolute;
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px;
+}
+.title{
+  /* display: flex; */
+  /* flex-direction: column; */
+  width: 100%;
+  line-height: 30vh;
+  height: 30%;
+  font-size: 2em;
+  font-family: "华文行楷";
+  color: #ebebeb;
+  text-align: center;
+  text-shadow: 1px 1px 3px;
+}
+.space{
+  width: 100%;
+  height: 30%;
+}
+.usermian{
+  width: 100%;
+  height: 40%;
+}
+.user input{
+  color: white;
+  font-family: "华文行楷";
+  border: 1px solid #7e7d7d;
+  border-radius: 5px;
+  width: 60%;
+  height: 2.5em;
+  margin: 0.5em auto;
+}
+.login{
+  font-family: "华文行楷";
+  width: 60%;
+  height: 2.5em;
+  margin: 1em auto;
+}
+/* .login_button{
+  height: 2.5em;
+  border: 0em;
+} */
+.set{
+  font-size: 1.2em;
+  font-family: "华文行楷";
+  color: #ebebeb;
+  text-align: center;
+}

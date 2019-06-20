@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <image src='../../images/timg.jpg' class='carousel'></image>
+  <view class='content'>
+    <view class="title">
+      无痕魔力小食
+    </view>
+    <view class='space'>
+    </view>      
+    <view class="usermian">
+      <view class='user'>
+        <input type='text' placeholder='请输入用户名'></input>
+        <input type='text' password='true' placeholder='请输入密码'></input>
+      </view>
+      <view class='login'>
+        <button type='primary' class="login_button" bindtap="jumpPage">登录</button>
+      </view>
+      <view class='set'>
+        忘记密码  免费注册
+      </view>
+    </view>
+  </view>
+</view>

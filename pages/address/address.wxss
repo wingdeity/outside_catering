@@ -1,0 +1,31 @@
+/* pages/address/address.wxss */
+.view_box,.space,.buttom{
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px;
+}
+.view_box{
+  position: fixed;
+  height: 100vh;
+}
+.space{
+  height: 90vh;
+}
+.buttom{
+  position: fixed;
+  height: 10vh;
+  background: greenyellow;
+  line-height: 7vh;
+  text-align: center;
+}
+/* .btn{
+  background: rgb(143, 199, 59);
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 15vh; 
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px;
+} */

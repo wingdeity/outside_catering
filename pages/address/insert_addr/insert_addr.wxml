@@ -1,0 +1,57 @@
+<!--pages/address/insert_addr/insert_addr.wxml-->
+<view class='view_box'>
+  <view class="consignee">
+    联系人:
+    <view class="info">
+      <view>
+        姓名
+      </view>
+      <view>
+        <input type='text' placeholder='请输入收货人姓名'></input>
+      </view>
+      <view>
+        手机号
+      </view>
+      <view>
+        <input type='number' placeholder='请输入手机号' maxlength="11"></input>
+      </view>
+    </view>
+    联系人:
+    <view class="address">
+      <view>
+        小区/大厦/学校
+      </view>
+      <view>
+        <input type='text' placeholder='请输入收货人姓名'></input>
+      </view>
+      <view>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <radio name="gender" value="男">男士</radio>
+        <radio name="gender" value="女">女士</radio>
+      </radio-group>
+      </view>
+      <view>
+        楼号门牌号
+      </view>
+      <view>
+        <input type='text' placeholder='例:10号楼1027室'></input>
+      </view>
+    </view>
+  </view>
+  <button type="primary">保存</button>
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+
+<button type="primary" bindtap="audioPlay">播放</button>
+<button type="primary" bindtap="audioPause">暂停</button>
+<button type="primary" bindtap="audio14">设置当前播放时间为14秒</button>
+<button type="primary" bindtap="audioStart">回到开头</button>
+<map
+id="myMap"
+style="width: 100%; height: 300px;"
+longitude="116.313972" latitude="39.980014"
+scale='16'
+subkey="AVABZ-EIPWP-7RTDK-L6UQ3-SHYET-V5B6V"
+polyline="{{polyline}}"
+markers="{{markers}}"
+></map>
+</view>

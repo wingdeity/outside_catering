@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/address/address",
+    "pages/address/insert_addr/insert_addr"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#039475",
+    "navigationBarTitleText": "无痕魔力小食",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
