@@ -1,1 +1,63 @@
 /* pages/address/insert_addr/insert_addr.wxss */
+.view_box,.consignee,.address,.saveaddr{
+  width: 100%;
+  padding: 0 0;
+  margin: 0 0;
+  border: 0;
+  background: rgba(216, 216, 216, 0.368);
+}
+.view_box{
+  position: relative;
+  height: 100%;
+  background: rgba(216, 216, 216, 0.368);
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+.consignee{
+  position: absolute;
+  height: 15vh;
+  background: #fff;
+}
+.contact,.name,.inputname,.gender,.phone,.inputphone,.harvest_address,.address_info,.selectaddr,.doorplate,.inputdoorplate{
+  float: left;
+  height: 5vh;
+  line-height: 4.2vh;
+  margin-left: 2%;
+}
+.contact,.harvest_address{
+  width: 100%;
+}
+.contact{
+  margin-top: 1.5vh;
+}
+.name,.phone{
+  width: 16%;
+}
+.inputname,.inputphone,.gender{
+  width: 80%;
+}
+.gender{
+  margin-left: 18%;
+}
+.address{
+  position: absolute;
+  top: 26.5vh;
+  height: 20vh;
+  background: #fff;
+}
+.address_info,.doorplate{
+  width: 30%;
+}
+.selectaddr,.inputdoorplate{
+  width: 65%;
+}
+.saveaddr{
+  position: absolute;
+  top: 40vh;
+  /* margin-top: 40vh; */
+  height: 7vh;
+  /* width: 60%;
+  margin-left:20%;
+  margin-right:20%;  */
+  /* background: rgba(216, 216, 216, 0.368); */
+}

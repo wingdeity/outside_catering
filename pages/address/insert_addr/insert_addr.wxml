@@ -1,45 +1,47 @@
 <!--pages/address/insert_addr/insert_addr.wxml-->
 <view class='view_box'>
   <view class="consignee">
-    联系人:
+    <view class='contact'>联系人</view>
     <view class="info">
-      <view>
+      <view class='name'>
         姓名
       </view>
-      <view>
+      <view class='inputname'>
         <input type='text' placeholder='请输入收货人姓名'></input>
       </view>
-      <view>
+      <view class='gender'>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <radio name="gender" value="男">男士</radio>
+          <radio name="gender" value="女">女士</radio>
+        </radio-group>
+      </view>
+      <view class='phone'>
         手机号
       </view>
-      <view>
+      <view class='inputphone'>
         <input type='number' placeholder='请输入手机号' maxlength="11"></input>
       </view>
     </view>
-    联系人:
+    <view class='harvest_address'>收获地址</view>
     <view class="address">
-      <view>
+      <view class='address_info'>
         小区/大厦/学校
       </view>
-      <view>
-        <input type='text' placeholder='请输入收货人姓名'></input>
+      <view class='selectaddr' bindtap="select_addr">
+        <!-- <input type='text' placeholder='请输入收货人姓名'></input> -->
       </view>
-      <view>
-      <radio-group class="radio-group" bindchange="radioChange">
-        <radio name="gender" value="男">男士</radio>
-        <radio name="gender" value="女">女士</radio>
-      </radio-group>
+      <view class='doorplate'>
+        楼号-门牌号
       </view>
-      <view>
-        楼号门牌号
-      </view>
-      <view>
+      <view class='inputdoorplate'>
         <input type='text' placeholder='例:10号楼1027室'></input>
       </view>
     </view>
   </view>
-  <button type="primary">保存</button>
-<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+  <view class='saveaddr'>
+    <button type="primary" class='btn'>保存</button>
+  </view>  
+<!-- <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
 
 <button type="primary" bindtap="audioPlay">播放</button>
 <button type="primary" bindtap="audioPause">暂停</button>
@@ -53,5 +55,5 @@ scale='16'
 subkey="AVABZ-EIPWP-7RTDK-L6UQ3-SHYET-V5B6V"
 polyline="{{polyline}}"
 markers="{{markers}}"
-></map>
+></map> -->
 </view>

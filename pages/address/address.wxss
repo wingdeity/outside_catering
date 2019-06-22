@@ -1,22 +1,22 @@
 /* pages/address/address.wxss */
 .view_box,.space,.buttom{
   width: 100%;
-  padding: 0px 0px;
-  margin: 0px 0px;
-  border: 0px;
+  padding: 0 0;
+  margin: 0 0;
+  border: 0;
 }
 .view_box{
   position: fixed;
   height: 100vh;
 }
 .space{
-  height: 90vh;
+  height: 92vh;
 }
 .buttom{
   position: fixed;
-  height: 10vh;
+  height: 8vh;
   background: greenyellow;
-  line-height: 7vh;
+  line-height: 8vh;
   text-align: center;
 }
 /* .btn{

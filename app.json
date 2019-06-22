@@ -4,7 +4,12 @@
     "pages/logs/logs",
     "pages/index/index",
     "pages/address/address",
-    "pages/address/insert_addr/insert_addr"
+    "pages/address/insert_addr/insert_addr",
+    "pages/address/select_addr/select_addr",
+    "pages/merchant/merchant",
+    "pages/mymenu/mymenu",
+    "pages/mymenu/service/service",
+    "pages/mymenu/coupons/coupons"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,5 +17,10 @@
     "navigationBarTitleText": "无痕魔力小食",
     "navigationBarTextStyle": "black"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  } 
 }
